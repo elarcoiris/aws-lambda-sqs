@@ -1,0 +1,39 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: >
+  AWSLambdaSQS
+
+Resources:
+  ExampleLambdaFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: .
+      Handler: main.handler
+      Runtime: nodejs14.x
+      Timeout: 3
+      Policies:
+        - SQSPollerPolicy:
+            QueueName: !GetAtt ExampleSQS.QueueName
+      Events:
+        ExampleSQSEvent:
+          Type: SQS
+          Properties: 
+            Queue: !GetAtt  ExampleSQS.Arn
+            BatchSize: 1
+    Metadata:
+      DockerTag: nodejs14.x-v1
+      DockerContext: .
+      Dockerfile: Dockerfile
+
+  ExampleSQS:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: "example_sqs"
+
+Outputs:
+  QueueARN:
+    Description: "Lambda and SQS"
+    Value:
+      Fn::GetAtt:
+        - "ExampleSQS"
+        - "Arn"

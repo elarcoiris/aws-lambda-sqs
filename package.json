@@ -1,0 +1,20 @@
+{
+  "name": "awslambdasqs",
+  "version": "1.0.0",
+  "description": "A Lambda that processes an SQS event",
+  "main": "main.js",
+  "scripts": {
+    "test": "test",
+    "local": "sam local invoke --event events/event.json"
+  },
+  "keywords": [
+    "Lambda",
+    "SQS",
+    "AWS",
+    "CloudFormation",
+    "SAM",
+    "YAML"
+  ],
+  "author": "Prue Phillips",
+  "license": ""
+}
