@@ -1,0 +1,36 @@
+{
+    "compilerOptions": {
+        "target": "ES2019",
+        "module": "CommonJS",
+        "lib": [
+            "es5", "ES6", "DOM", "DOM.Iterable"
+        ],
+        "allowJs": true,
+        "declaration": true,
+        "sourceMap": true,
+        "outDir": "./dist",
+        "resolveJsonModule": true,
+
+        "strict": true,
+        "noImplicitAny": false,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "alwaysStrict": true,
+
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+
+        "moduleResolution": "node",
+        "baseUrl": "src",
+        "typeRoots": ["node_modules/@types"],
+        "esModuleInterop": true,
+
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "**/*.test.ts", "dist/**/*"]
+}
