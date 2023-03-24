@@ -43,6 +43,6 @@
     "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
-    "aws-sdk": "^2.1319.0"
+    "aws-sdk": "^2.1325.0"
   }
 }
