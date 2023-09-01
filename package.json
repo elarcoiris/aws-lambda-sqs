@@ -37,7 +37,7 @@
     "husky": "^8.0.0",
     "jest": "^28.1.0",
     "prettier": "^3.0.3",
-    "tsconfig-paths-webpack-plugin": "^3.5.2",
+    "tsconfig-paths-webpack-plugin": "^4.1.0",
     "typescript": "^4.6.4",
     "webpack": "^5.76.0",
     "webpack-node-externals": "^3.0.0"
