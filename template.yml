@@ -29,6 +29,7 @@ Resources:
     Type: AWS::SQS::Queue
     Properties:
       QueueName: "example_sqs"
+      KmsMasterKeyId: alias/aws/sqs
 
 Outputs:
   QueueARN:
