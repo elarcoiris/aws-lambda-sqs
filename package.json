@@ -39,7 +39,7 @@
     "prettier": "^3.0.3",
     "tsconfig-paths-webpack-plugin": "^4.1.0",
     "typescript": "^5.2.2",
-    "webpack": "5.88.2",
+    "webpack": "5.89.0",
     "webpack-node-externals": "^3.0.0"
   },
   "dependencies": {
