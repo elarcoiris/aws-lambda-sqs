@@ -19,7 +19,7 @@ pipeline {
     stages {
         stage('Build and Test') {
             agent {
-                label "node-14"
+                label "node-16"
             }
             environment {
                 NODE_ENV = "test"
@@ -48,7 +48,7 @@ pipeline {
         }
         stage('Build and Zip') {
             agent {
-                label "node-14"
+                label "node-16"
             }
             environment {
                 NODE_ENV = "test"
