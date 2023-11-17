@@ -9,7 +9,7 @@ Resources:
     Properties:
       CodeUri: .
       Handler: main.handler
-      Runtime: nodejs16.x
+      Runtime: nodejs18.x
       Timeout: 3
       Policies:
         - SQSPollerPolicy:
@@ -21,7 +21,7 @@ Resources:
             Queue: !GetAtt  ExampleSQS.Arn
             BatchSize: 1
     Metadata:
-      DockerTag: nodejs16.x-v1
+      DockerTag: nodejs18.x-v1
       DockerContext: .
       Dockerfile: Dockerfile
 
