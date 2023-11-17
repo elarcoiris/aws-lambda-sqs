@@ -1,4 +1,4 @@
-FROM public.ecr.aws/lambda/nodejs:16
+FROM --platform=arm64 node:18-alpine
 
 COPY main.js package.json ./
 
