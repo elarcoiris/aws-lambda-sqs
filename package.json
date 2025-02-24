@@ -31,7 +31,7 @@
   "license": "",
   "devDependencies": {
     "@typescript-eslint/parser": "^8.24.1",
-    "@typescript-eslint/eslint-plugin": "^8.24.0",
+    "@typescript-eslint/eslint-plugin": "^8.24.1",
     "babel-loader": "^9.2.1",
     "eslint": "^9.20.1",
     "husky": "^9.1.7",
