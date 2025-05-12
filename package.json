@@ -30,7 +30,7 @@
   "author": "Prue Phillips",
   "license": "",
   "devDependencies": {
-    "@typescript-eslint/parser": "^8.31.1",
+    "@typescript-eslint/parser": "^8.32.0",
     "@typescript-eslint/eslint-plugin": "^8.32.0",
     "babel-loader": "^10.0.0",
     "eslint": "^9.26.0",
