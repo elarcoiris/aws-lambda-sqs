@@ -38,7 +38,7 @@
     "jest": "^30.0.5",
     "prettier": "^3.6.2",
     "tsconfig-paths-webpack-plugin": "^4.2.0",
-    "typescript": "^5.8.3",
+    "typescript": "^5.9.2",
     "webpack": "5.101.0",
     "webpack-node-externals": "^3.0.0"
   },
