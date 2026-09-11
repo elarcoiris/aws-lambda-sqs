@@ -35,7 +35,7 @@
     "babel-loader": "^10.1.1",
     "eslint": "^10.9.1",
     "husky": "^9.1.7",
-    "jest": "^30.4.2",
+    "jest": "^30.5.1",
     "prettier": "^3.9.6",
     "tsconfig-paths-webpack-plugin": "^4.2.0",
     "typescript": "^7.0.2",
